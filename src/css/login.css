@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Zen+Dots&display=swap');
+.bgimage{
+    /* background-image: url('../../public/assets/images/bg.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../../public/assets/images/bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 91vh;
+ 
+}
+
+.innerDiv{
+    padding: 2rem;
+    background-color: rgb(43, 43, 43);
+    border-radius: 20px;
+}
+.displayprop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginusText{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Zen Dots', cursive;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    text-align: center;
+}
+.buttonDiv{
+    /* width: 400px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    
+}
+.samebtn{
+    padding: 10px 40px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1.4px;
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .buttonDiv{
+        flex-direction: column;
+    }
+}

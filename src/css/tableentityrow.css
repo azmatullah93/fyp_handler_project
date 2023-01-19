@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Lato:ital,wght@0,300;1,400&family=Zen+Dots&display=swap');
+
+.studentbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.displaycenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagediv{
+    width: 50px;
+    height: 50px;
+  
+    object-fit: contain;
+}
+.studentimage{
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+}
+.nameEmailDiv{
+    margin-left: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.studentname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0;
+   margin: 0;
+   color: black;
+}
+.projectname{
+  
+   font-size: 14px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;   
+   padding: 0;
+   margin: 0;
+   color: rgb(2, 112, 237);
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   
+   
+   padding-top: 10px;
+}
+.projectnamelink{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;   
+    padding: 0;
+    margin: 0;
+    color: rgb(19, 76, 200);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    text-decoration: none;
+}
+
+.membersdiv{
+  
+   font-size: 14px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;   
+   padding: 0;
+   margin: 0;
+   color: black;
+   
+   padding-top: 10px;
+}
+.paddingtop{
+    padding-top: 10px;
+}
+.studentEmail{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    color: rgb(71, 71, 71);
+    margin: 0;
+}
+
+.batchdiv{
+    background-color: rgb(63, 200, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 6px;
+}
+.trcolor{
+    background-color: white;
+}
+.alloptionsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+    padding-top: 10px;
+}
+.marginleft{
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 617px) {
+
+    .studentbox{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .alloptionsDiv{
+        flex-direction: column;
+    }
+    td{
+        text-align: center;
+    }
+}

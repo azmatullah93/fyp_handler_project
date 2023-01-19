@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+.projectsinnercontainer{
+    padding: 2rem;
+}
+.containerbg{
+    background-color: rgba(207, 206, 206, 0.611);
+}
+.projectsText{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    color: #0b5df7;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+thead{
+    background-color: #2273ff;
+    
+    
+}
+th{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    
+}
+@media screen and (max-width: 992px) {
+    .projectsinnercontainer{
+        padding: 2px;
+    }
+    /* .tableContainer{
+        padding: 0;
+        margin: 0;
+    } */
+    
+}

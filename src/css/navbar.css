@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+.nav-link{
+    font-family: 'Kanit', sans-serif;
+    color: rgb(215, 18, 18);
+}
+.nav-link:hover{
+    color: blue;
+}
+.navbar{
+    background-color: rgba(210, 210, 210, 0.386);
+    padding: 0;
+}
+.custumbtn{
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-family:'Kanit', sans-serif;
+    letter-spacing: 0.8px;
+}
+
+@media screen and (max-width: 990px) {
+    .custumbtn{
+        margin-bottom: 30px;
+        border-radius: 0;
+    }
+    
+}
